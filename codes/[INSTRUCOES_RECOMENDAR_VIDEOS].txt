@@ -1,0 +1,40 @@
+# Bloco de Instruções: Recomendação de Canais do YouTube (`[INSTRUCOES_RECOMENDAR_VIDEOS]`)
+
+**Tarefa:** Pesquisar e recomendar canais do YouTube com conteúdo educacional de alta qualidade para as disciplinas listadas no `[[currículo]]` fornecido.
+
+**Etapas e Critérios:**
+
+1.  **Identificar Disciplinas Relevantes:** Processe a lista de disciplinas no `[[currículo]]` para guiar a busca por canais. A recomendação de canais pode ser mais geral ou agrupada por área, se fizer sentido.
+2.  **Pesquisar Canais:** Identifique canais que atendam aos seguintes critérios:
+    *   **Conteúdo:** Educacional, de alta qualidade, confiável, aprofundado, relevante para nível universitário. Cobrindo teoria e, se aplicável, prática/implementações.
+    *   **Didática:** Explicações claras de conceitos complexos.
+    *   **Precisão Técnica:** Alinhamento com o conhecimento acadêmico.
+    *   **Credibilidade:** Criadores com afiliação conhecida (acadêmica/profissional) ou reputação estabelecida na área.
+3.  **Coletar Informações:** Para cada canal recomendado:
+    *   Nome do Canal
+    *   Link direto para o canal (URL completo)
+    *   Breve Descrição (1-2 frases sobre foco e tipo de conteúdo)
+    *   Justificativa (1 frase explicando a relevância/confiabilidade baseada nos critérios).
+4.  **Aplicar Restrições Específicas:**
+    *   Foco estritamente universitário (evitar conteúdo de ensino médio, resumos superficiais, entretenimento sem profundidade).
+    *   Qualidade sobre quantidade.
+    *   Verificabilidade da credibilidade do canal/criador.
+    *   Se não encontrar canais que atendam aos critérios para uma área/disciplina, pode-se omitir ou indicar a dificuldade: "* Não foram encontrados canais com a profundidade e credibilidade desejadas para a área de [Nome da Área/Disciplina]."
+
+**Formato de Saída Obrigatório:**
+
+*   Use **Markdown**.
+*   Inicie com a seção principal: `## Canais do YouTube Recomendados por Relevância`
+*   Liste os canais recomendados usando bullet points (`* `):
+    ```
+    *   **[Nome do Canal]**
+        *   **Link:** [URL do Canal]
+        *   **Descrição:** [Breve descrição do foco e conteúdo]
+        *   **Relevância/Confiabilidade:** [Justificativa baseada nos critérios]
+    *   **[Nome do Outro Canal]**
+        *   **Link:** [URL do Outro Canal]
+        *   **Descrição:** [...]
+        *   **Relevância/Confiabilidade:** [...]
+    ```
+
+---

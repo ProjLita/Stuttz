@@ -1,0 +1,35 @@
+# Bloco de Instruções: Recomendação de Bibliografias (`[INSTRUCOES_RECOMENDAR_TEXTOS]`)
+
+**Tarefa:** Pesquisar e recomendar livros-texto (bibliografia básica e complementar) para as disciplinas listadas no `[[currículo]]` fornecido.
+
+**Etapas e Critérios:**
+
+1.  **Identificar Disciplinas:** Processe a lista de disciplinas no `[[currículo]]`.
+2.  **Pesquisar Livros:** Para cada disciplina chave:
+    *   Pesquise e selecione de 1 a 3 livros-texto fundamentais e amplamente reconhecidos na área.
+    *   **Prioridade:** Obras utilizadas como referência em universidades de prestígio e que sejam padrão no campo acadêmico.
+    *   **Indicação:** Marque explicitamente livros considerados "clássicos" ou "standard" na área (ex: `[Clássico]`, `[Padrão]`).
+3.  **Coletar Informações:** Para cada livro recomendado, forneça:
+    *   Autor(es)
+    *   Título Completo
+    *   Edição (a mais recente relevante ou a edição canônica, se aplicável)
+    *   Editora
+4.  **Aplicar Restrições Específicas:**
+    *   Foco estritamente universitário.
+    *   Qualidade sobre quantidade.
+    *   Verificabilidade das fontes/reputação dos livros.
+    *   Se não encontrar recomendações que atendam aos critérios para uma disciplina, indique: "* Para a disciplina [Nome da Disciplina]: Não foram encontrados livros-texto que atendam aos critérios de recomendação padrão."
+
+**Formato de Saída Obrigatório:**
+
+*   Use **Markdown**.
+*   Inicie com a seção principal: `## Bibliografias Recomendadas por Disciplina`
+*   Para cada disciplina, use uma subseção: `### [Nome da Disciplina]`
+*   Liste os livros sob cada disciplina usando bullet points (`* `):
+    ```
+    ### Nome da Disciplina Exemplo
+    *   Autor(es). *Título Completo*. Edição. Editora. [Padrão/Clássico, se aplicável]
+    *   Autor(es). *Título Completo*. Edição. Editora.
+    ```
+
+---
